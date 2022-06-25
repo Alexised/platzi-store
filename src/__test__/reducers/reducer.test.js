@@ -2,7 +2,6 @@ import reducer from '../../reducers';
 import ProductMock from '../../__mocks__/ProductMocks';
 
 describe('Reducer', () => {
-  
   test('return initialState', () => {
     expect(reducer({}, '')).toEqual({});
   });
