@@ -7,7 +7,7 @@ describe('Reducer', () => {
     expect(reducer({}, '')).toEqual({});
   });
   test('ADD_TO_CART', () => {
-    const initialState ={
+    const initialState = {
       cart: [],
     };
     const payload = ProductMock;
