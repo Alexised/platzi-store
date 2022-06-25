@@ -25,7 +25,7 @@ describe('<Header />', () => {
     expect(header.find('.Header-title').text()).toEqual('Platzi Store');
   });
 });
-
+// jest --updateSnapshot actualizar  Snapshot
 describe('Header Snapshot', () => {
   test('Comprobar la UI del componente header', () => {
     const header = create(
